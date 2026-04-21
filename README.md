@@ -522,8 +522,8 @@ make test-integration
 ![4B](screenshots/screenshots/4B.png)
 **📸 Screenshot 4C:** `cat .pes/refs/heads/main` and `cat .pes/HEAD` showing the reference chain.
 ![4C](screenshots/screenshots/4C.png)
-![phase4_commit_log](screenshots/screenshots/phase4_commit_log.png)
 ---
+![phase4_commit_log](screenshots/screenshots/phase4_commit_log.png)
 
 ## Phase 5 & 6: Analysis-Only Questions
 
