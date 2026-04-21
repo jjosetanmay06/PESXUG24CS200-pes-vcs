@@ -375,9 +375,10 @@ The test program verifies:
 - Integrity checking (detects corrupted objects)
 
 **📸 Screenshot 1A:** Output of `./test_objects` showing all tests passing.
+![1A](screenshots/screenshots/1a.png)
 
 **📸 Screenshot 1B:** `find .pes/objects -type f` showing the sharded directory structure.
-
+![1B](screenshots/screenshots/1b.png)
 ---
 
 ## Phase 2: Tree Objects
@@ -407,7 +408,7 @@ The test program verifies:
 - Deterministic serialization (same entries in any order → identical output)
 
 **📸 Screenshot 2A:** Output of `./test_tree` showing all tests passing.
-
+![2A](screenshots/screenshots/2a.png)
 **📸 Screenshot 2B:** Pick a tree object from `find .pes/objects -type f` and run `xxd .pes/objects/XX/YYY... | head -20` to show the raw binary format.
 
 ---
