@@ -408,9 +408,9 @@ The test program verifies:
 - Deterministic serialization (same entries in any order → identical output)
 
 **📸 Screenshot 2A:** Output of `./test_tree` showing all tests passing.
-![2A](screenshots/screenshots/2a.png)
+![2A](screenshots/screenshots/2A.png)
 **📸 Screenshot 2B:** Pick a tree object from `find .pes/objects -type f` and run `xxd .pes/objects/XX/YYY... | head -20` to show the raw binary format.
-
+![2B](screenshots/screenshots/2B.png)
 ---
 
 ## Phase 3: The Index (Staging Area)
@@ -466,9 +466,9 @@ cat .pes/index    # Human-readable text format
 ```
 
 **📸 Screenshot 3A:** Run `./pes init`, `./pes add file1.txt file2.txt`, `./pes status` — show the output.
-
+![3A](screenshots/screenshots/3A.png)
 **📸 Screenshot 3B:** `cat .pes/index` showing the text-format index with your entries.
-
+![3B](screenshots/screenshots/3B.png)
 ---
 
 ## Phase 4: Commits and History
@@ -517,11 +517,12 @@ make test-integration
 ```
 
 **📸 Screenshot 4A:** Output of `./pes log` showing three commits with hashes, authors, timestamps, and messages.
-
+![4A](screenshots/screenshots/4A.png)
 **📸 Screenshot 4B:** `find .pes -type f | sort` showing object store growth after three commits.
-
+![4B](screenshots/screenshots/4B.png)
 **📸 Screenshot 4C:** `cat .pes/refs/heads/main` and `cat .pes/HEAD` showing the reference chain.
-
+![4C](screenshots/screenshots/4C.png)
+![phase4_commit_log](screenshots/screenshots/phase4_commit_log.png)
 ---
 
 ## Phase 5 & 6: Analysis-Only Questions
